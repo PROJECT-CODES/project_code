@@ -1,3 +1,3 @@
 $('.toggle-btn').click(function(){
-    $('.navbar-link').fadeToggle(1000);
+    $('.navbar-link').slideToggle(600);
 })
