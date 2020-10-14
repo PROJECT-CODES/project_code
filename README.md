@@ -1,1 +1,1 @@
-# project_code call me kalpesh after u have done uploading.. your phone is switched off, i tried to call .. !
+# project_code: part 2 of the site is done extra info section !
