@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+html{
+    font-family: 'Lato','Arial';
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+   
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) , url("def.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+
+header .welcome-box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+header .welcome-box h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+        width: 1140px;
+
+}
+
+header .welcome-box p{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+header .welcome-box button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
+header .welcome-box button:hover{
+        background-color: #dbdbdb;
+
+}
+
+header .welcome-box button:focus{
+    outline: none;
+}
+
+
+@media only screen and (max-width:1210px)
+{
+
+    header .welcome-box{
+    width: 88%;
+    padding-left: 10%;
+    margin-right: 20px;
+    }
+    
+    
+    header .welcome-box h1{
+        
+        width: 100%;
+    }
+    
+    
+}
+
+@media only screen and (max-width:800px)
+{
+
+    
+    header{
+        height: 80vh;
+    }
+    
+    header .welcome-box{
+    width:80%;    
+        margin: 0 auto;
+    }
+    
+    
+    header .welcome-box h1{
+        font-size: 40px;
+
+        width: 100%;
+    }
+    
+    header .welcome-box p{
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    header .welcome-box button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+    
+    
+}
+
+
+@media only screen and (max-width:580px)
+{
+
+    
+    
+    
+    header .welcome-box h1{
+        font-size: 30px;
+
+        width: 90%;
+    }
+    
+    header .welcome-box p{
+        font-size: 17px;
+        width: 80%;
+    }
+    
+    
+}
+
+@media only screen and (max-width:375px)
+{
+
+    
+    
+    header .welcome-box h1{
+        font-size: 28px;
+
+        width: 90%;
+    }
+    
+    header .welcome-box p{
+        font-size: 15px;
+        width: 80%;
+    }
+    
+    
+}
