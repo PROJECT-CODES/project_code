@@ -1,0 +1,808 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: #282533;
+    
+}
+
+header{
+/*    background-color: #A32458;*/
+    height: 65vh;
+    color: #fff;
+    position: relative;
+    
+    background-image: linear-gradient(rgba(163, 36, 88,0.6),rgba(163, 36, 88,0.3))  , url(images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header .welcome-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+header .welcome-box h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+header .welcome-box p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+header .welcome-box button{
+    
+    background-color: #fff;
+    color: #A32458;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+/*nav header*/
+
+
+
+.all-the-top{
+/*    border: 1px solid #fff;*/
+    padding: 20px;
+}
+
+
+
+.logo-left{
+    float: left;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+
+.email-right{
+    float: right;
+    margin-top: 34px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+header  nav{
+        margin-top: 34px;
+
+    text-align: center;
+    transform: translate(2%,0%);
+}
+
+
+header  nav ul li{
+display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+header  nav ul li:hover{
+font-weight: 400;
+
+}
+
+.sel-nav{
+    font-weight: 900;
+}
+
+
+
+/*nav stick*/
+
+.stick{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(57, 53, 74);
+    box-shadow: 0 2px 2px rgba(101, 93, 132, 0.88);
+}
+
+.stick .logo-left{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.stick .email-right{
+        color: #fff;
+font-size: 16px;
+        margin-top: 10px;
+    
+}
+
+.stick  nav{
+    margin-top: 7px;
+}
+
+.stick nav ul li{
+    color: #fff;
+    font-size: 17px;
+}
+
+
+/*mobile nav*/
+
+
+.nav-icon{
+    float: right;
+    cursor: pointer;
+    display: none;
+    
+   
+}
+
+.nav-icon i{
+     font-size: 40px;
+    color: #fff;
+}
+
+
+/*couse box design*/
+
+
+.courses{
+    width: 100%;
+   margin-top: 50px;
+}
+
+.course-box-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.course-box{
+    width: 31%;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 8px;
+/*    border: 1px solid #fff;*/
+    margin-bottom: 40px;
+    color: #fff;
+    background-color: #2C2739;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.25);
+}
+
+.course-box:last-child{
+        margin-right: 0px;
+
+}
+
+.course-box img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.course-box h3{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.course-box h4{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.course-box p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 300;
+     
+}
+
+.course-box button{
+        margin-top: 40px;
+
+    font-size: 16px;
+    background-color:#d83176;  
+        margin-left: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding:10px 40px;
+    cursor: pointer;
+    font-weight: 300;
+
+}
+
+.project-box-c{
+    width: 48%;
+}
+
+.course-box-container h5{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+
+.course-box-container hr{
+    border:2px solid #50B4FF;
+    width: 10%;
+    margin: 0 auto;
+        margin-bottom: 30px;
+    
+
+}
+
+/*want to ask us questions section*/
+
+
+.want-us-question-conatiner{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 0px;
+}
+
+.want-us-question-conatiner h4{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.want-us-question-conatiner hr{
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    border: 2px solid #4FB3FF;
+}
+
+.want-us-question-conatiner button{
+        background-color:#d83176;  
+        color: #fff;
+        padding:10px 40px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 50px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 300;
+}
+
+.info-site{
+    padding: 50px 0px;
+}
+
+.info-site p{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.info-site pre{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 300;
+    white-space: break-spaces;
+    text-align: left;
+}
+
+
+.info-site h5, .info-site ul {
+    text-align: justify;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+.info-site h5{
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+.info-site ul{
+    font-weight: 300;
+        font-size: 18px;
+    display: block;
+    list-style: inside;
+ 
+}
+
+.info-site ul li{
+
+    margin-bottom: 10px;
+}
+
+
+/*footer*/
+
+
+footer{
+    background-color: #221F2B;
+}
+
+.foot-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left-footer{
+    float: left;
+   
+}
+
+.left-footer h4{
+   
+    color: #fff;
+    font-size: 30px;
+}
+
+.left-footer p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+        font-weight: 300;
+
+
+}
+
+
+.right-footer{
+    float: right;
+   
+}
+
+
+
+.right-footer h4{
+     color: #fff;
+    font-size: 20px;
+}
+
+.right-footer ul{
+    margin-top: 20px;
+}
+
+.right-footer ul li{
+    list-style: none;
+    margin-bottom: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.center-footer{
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.center-footer{
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+
+/*//------ 2ND PAGE COURSES PAGE -----//*/
+
+
+
+
+
+.form-info-enroll{
+    
+    text-align: left;
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.form-info-enroll label{
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-info-enroll input[type='text'],input[type='email'],input[type='tel'],select
+{
+    display: block;
+    margin-bottom: 40px;
+    background-color: #1F1B27;
+    border: none;
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 200px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.form-info-enroll select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.sselectform{
+    position: relative;
+   
+}
+
+
+.form-info-enroll i{
+    position: absolute;
+     top:44%;
+    color: #fff;
+    font-size: 18px;
+    right: 6%;
+    
+}
+
+
+.form-info-enroll input[type='text']:focus,input[type='email']:focus,input[type='tel']:focus,select:focus{
+
+   outline: none;
+         border: 1px solid #394588; 
+
+}
+
+/*queries*/
+
+
+@media screen and (max-width: 1180px) {
+
+   .course-box{
+    width: 46%;
+    
+}
+ 
+    
+    
+}
+
+
+
+@media screen and (max-width: 900px) {
+ header .welcome-box h1{
+    font-size: 35px;
+}
+    
+    }
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .email-right{
+        display: none;
+    }
+    
+    header nav{
+        display: none;
+    }
+/*    nav icon ---start show*/
+    .nav-icon{
+        display: inline-block;
+    }
+    
+   .nav-icon i .i22{
+        display: none;
+    }
+    
+    .full-nav{
+        background-color: #2C2739;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        transition: transform 2s;
+        
+    }
+    
+   
+    
+    .full-nav  nav{
+        display: inline-block;
+        margin-top: 100px;
+        
+    }
+    
+    .full-nav .logo-left{
+        font-size: 12px;
+    }
+    
+    .full-nav  nav ul li{
+        display: block;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    
+    
+    .stick{
+        padding: 0px;
+    }
+    
+    .stick .logo-left{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    .stick .nav-icon{
+        margin-top: 7px;
+        margin-right: 30px;
+    }
+    
+ 
+    
+      .logo-left{
+        margin-top: 20px;
+          font-size: 18px;
+        margin-left: 20px;
+    }
+    
+     .nav-icon{
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    
+    
+    
+    
+    /*    nav icon ----end show*/
+
+   .course-box img{
+    height: 180px;
+    
+    }
+    
+    .course-box h3{
+    font-size: 12px;
+
+    
+    }
+    
+    .course-box h4{
+    font-size: 20px ;
+    
+    }
+    
+    .course-box p{
+    font-size: 14px ;
+    
+    }
+    
+    .course-box button{
+    font-size: 14px;
+        padding: 8px 30px;
+    
+    }
+ 
+    
+    
+    
+    
+.want-us-question-conatiner{
+    padding: 60px 0px;
+}
+
+.want-us-question-conatiner h4, .course-box-container h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+
+.want-us-question-conatiner hr{
+}
+
+.want-us-question-conatiner button{
+        background-color:#d83176;  
+        color: #fff;
+        padding:10px 40px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 300;
+}
+
+    
+
+.info-site p, .info-site pre{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+
+    .foot-container{
+        text-align: center;
+    }
+    
+    .left-footer{
+        float: none;
+        
+    }
+    
+    .left-footer h4{
+        
+        font-size: 25px;
+    }
+    
+    
+    
+     .right-footer{
+        float: none;
+         margin-top: 40px;
+    }
+    
+    
+    
+    .info-site ul{
+        font-size: 16px;
+    }
+    
+    
+    .form-info-enroll label{
+        font-size: 18px;
+    }
+    
+    .form-info-enroll input[type='text'],input[type='email'],input[type='tel'],select
+{
+    display: block;
+    margin-bottom: 40px;
+    background-color: #1F1B27;
+    border: none;
+    width: 100%;
+    padding: 12px 30px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 16px;
+}
+
+    
+    
+    
+}
+
+
+
+@media screen and (max-width: 680px) {
+
+    .course-box-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+    
+    
+    .course-box{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    
+   .course-box img{
+    
+    
+    }
+    
+    .course-box h3{
+
+        margin-left: 0;
+    
+    }
+    
+    .course-box h4{
+        margin-left: 0;
+    
+    }
+    
+    .course-box p{
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    
+    }
+    
+    .course-box button{   
+        
+        margin-left: 0;
+
+   
+    
+    }
+ 
+    
+    
+}
+
+
+
+
+
+
+
+    
+    
+@media screen and (max-width: 700px) {
+    
+    
+header{
+    height: 60vh;
+    
+}    
+    
+ header .welcome-box h1{
+    font-size: 30px;
+    font-weight: bold;
+     width: 100%;
+}
+
+}
